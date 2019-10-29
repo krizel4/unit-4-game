@@ -25,42 +25,42 @@
 /* Need to define position, bg color and size. */
 .computer {
     font-family: 'Quicksand', Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 44px;
+    font-weight: 800;
 }
 
 /* Need to define position, bg color and size. */
 .score {
     font-family: 'Quicksand', Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 /* Need to define position, bg color and size. */
 .user {
     font-family: 'Quicksand', Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 44px;
+    font-weight: 800;
 }
 
 h1 {
     font-family: 'Quicksand', Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 44px;
+    font-weight: 800;
 }
 
 h2 {
     font-family: 'Quicksand', Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 h3 {
     font-family: 'Quicksand', Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
 }
 
 p {
     font-family: 'Quicksand', Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
 }
