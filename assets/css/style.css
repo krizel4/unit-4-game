@@ -15,7 +15,7 @@ body {
 
 .container {
     width: 960px;
-    background-color: #ffffff;
+    background-color: #2e1f04;
     border: 0px;
     margin: 0 auto;
     padding: 44px;
@@ -25,51 +25,58 @@ body {
 
 .title {
     text-align: center;
-    padding: 0 0 44px 0;
+    padding: 44px;
+    background-color: #2e1f04;
+    width: 960px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Need to define position, bg color and size. */
 .computer {
-    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 44px;
     font-weight: 800;
 }
 
 /* Need to define position, bg color and size. */
 .score {
-    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 24px;
 }
 
 /* Need to define position, bg color and size. */
 .user {
-    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 44px;
     font-weight: 800;
 }
 
 h1 {
-    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-family: 'Cinzel Decorative', cursive;
     font-size: 44px;
     font-weight: 800;
+    color: #fff;
 }
 
 h2 {
-    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-family: 'Cinzel Decorative', cursive;
     font-size: 24px;
     font-weight: 600;
 }
 
 h3 {
-    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-family: 'Cinzel Decorative', cursive;
     font-size: 20px;
     font-weight: 400;
 }
 
 p {
-    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 16px;
     line-height: 1.8;
+    color: #ffffff;
 }
 
 @media screen and (max-width: 600px) {
