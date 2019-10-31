@@ -17,7 +17,6 @@ var points = 0;
         "<p>Gem Goal: " + computer + "</p>" +
         "<p>Wins: " + wins + "</p>" +
         "<p>Losses: " + losses + "</p>" +
-        "<p>Guesses Left: " + guessesLeft + "</p>" +
-        "<p>Your Guesses so far: " + guessChoices.join(", ") + "</p>";
+      
 
-        document.querySelector("#game").innerHTML = gameBody;
+        document.querySelector("#game").innerHTML, gameBody;

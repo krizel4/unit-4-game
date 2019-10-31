@@ -15,22 +15,24 @@ body {
 
 .container {
     width: 960px;
-    background-color: #2e1f04;
+    background-color: #2d042e;
     border: 0px;
     margin: 0 auto;
     padding: 44px;
     margin-top: 50px;
     max-width: 100%;
+    opacity: .8;
 }
 
 .title {
     text-align: center;
     padding: 44px;
-    background-color: #2e1f04;
+    background-color: #2d042e;
     width: 960px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    opacity: .8;
 }
 
 /* Need to define position, bg color and size. */
