@@ -1,9 +1,16 @@
-// variables
+// Variables
 
-    var wins = 0;
-    var lost = 0;
-    var score = 0;
+// Randomized number to meet
 
-    $(document).ready(function() {
+// Randomized number for each gem
+ 
+// On click functions for each gem
 
-    });
+// Scoring for the gems
+
+// Winner or loser announcement
+
+// Reset 
+
+$(document).ready(function() {
+})
