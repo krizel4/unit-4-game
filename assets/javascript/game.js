@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
 // Global Variables 
-var wins = 0;
-var losses = 0;
+var wins = 1;
+var losses = 1;
 var computerNumber = 0;
 var crystalsCollected = 0;
 var gem1 = 0;

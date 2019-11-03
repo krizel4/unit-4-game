@@ -19,35 +19,49 @@
     
     <div class="container"> 
 
-            <p>You will be given a random number at the start of the game.</p>
-            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. </p>
-            <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
-            <p>The value of each crystal is hidden from you until you click on it.</p>
-            <p>Each time when the game starts, the game will change the values of each crystal.</p>
-        
+        <p>You're on quest to collect crystals. But the wizards only want a specific amount. </p>
+        <p>The trick is that each gem is worth something different. Pick up gems until you meet the wizards request! </p>
+        <p>You get a point for everytime you've collected the exact amount!</p>
+        <p>&nbsp;</p>
 
-    <!-- SCORE BOARD -->
+    <!-- Crystals Requested -->
         <div class="computer">
-            <h1>Target Score</h1>
+            <h2>Crystals Requested</h2>
         <h2 id="computerNumber"></h2>
+        </div>                      
+            
+    <!-- Crystals Collected -->
+        <div class="crystals">
+            <h2>Crystals Collected</h2>
+            <h2 id="crystalsCollected"></h2>
         </div>
-        <h3 id="winner"></h3>
-        <h3 id="loser"></h3>
-        <p id="wins"></p>
-        <p id="losses"></p>
-        <h1>Crystals Collected</h1>
-        <h2 id="crystalsCollected"></h2>
 
+    
+    </div>
 
     <!-- CRYSTALS -->
         <div class="gems-container">
+    
+    <!-- SCORE BOARD -->
+    <div class="scoreboard">
+        <p id="wins" class="scoreboard"></p>
+        <p>&nbsp;</p>
+        <p id="losses" class="scoreboard"></p>
+        <p>&nbsp;</p>
+        <p><hr></p>
+        <p>&nbsp;</p>
+    </div>
+
+    
             <img id="gem1" src="assets/images/gem-1.png" class="gems" alt="Green Gem">
             <img id="gem2" src="assets/images/gem-2.png" class="gems" alt="Purple Gem">
             <img id="gem3" src="assets/images/gem-3.png" class="gems" alt="Orange Gem">
             <img id="gem4" src="assets/images/gem-4.png" class="gems" alt="Pink Gem">
-        </div>
 
-    </div>
+        </div>
+ 
+
+ 
 
     <!-- jQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
